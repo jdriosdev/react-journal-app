@@ -1,0 +1,39 @@
+.btn {
+  background-color: $ligth;
+  border: none;
+  color: $primary;
+  height: 30px;
+  transition: .3s ease;
+  min-width: 50px;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: $primary;  
+    color: $ligth;
+  }
+  &:active {
+    background-color: darken($color: $ligth, $amount: 8 );
+    color: $ligth;
+  }
+  &:disabled {
+    background-color: rgb(148, 148, 148);
+  }
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-danger {
+  background-color: rgb(255, 164, 164);
+  color: $primary;
+  &:hover {
+    background-color: rgb(255, 128, 128);
+    color: $primary;
+  }
+  &:active {
+    background-color: #d63737;
+  }
+}
+
+

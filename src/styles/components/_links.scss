@@ -1,0 +1,8 @@
+.link {
+  color: $dark;
+  text-decoration: none;
+  padding-top: 5px;
+  &:hover {
+    text-decoration: underline;
+  }
+}

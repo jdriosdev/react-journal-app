@@ -1,0 +1,31 @@
+
+
+.auth__main {
+  align-items: center;
+  background-color: $primary;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.auth__box-container {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.auth__alert-error {
+  background-color: rgb(255, 86, 86);
+  color: $white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
