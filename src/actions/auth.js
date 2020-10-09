@@ -30,7 +30,6 @@ export const startRegisterWithEmailPasswordName = ( email, password, name) => {
 
       await user.updateProfile({displayName: name})
 
-      console.log(user)
       dispatch(
         login( user.uid, user.displayName)
       )
